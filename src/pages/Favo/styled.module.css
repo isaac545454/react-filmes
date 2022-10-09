@@ -1,0 +1,46 @@
+.filmesSalvos{
+  display: flex;
+  flex-direction: column;
+  
+}
+.filmesSalvos h1{
+  text-align: center;
+  margin-top: 10px;
+}
+.item{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px  20px;
+}  
+.item span{
+  font-weight: bold;
+
+  width: 50%;
+}
+.areaBtn{
+  display: flex;
+}
+.item button, .item a{
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+.semFilmes{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px){
+  .item button, .item a{
+    text-align: center;
+    width: 80%;
+    padding: 5px;
+  }
+}

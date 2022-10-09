@@ -1,0 +1,21 @@
+.notfound{
+ text-align: center;
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.notfound a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  width: 20%;
+  margin: 10px auto;
+}
+
+@media(max-width: 480px){
+  .notfound a{
+    width: 50%;
+  }
+}

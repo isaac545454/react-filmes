@@ -1,0 +1,55 @@
+.containerDetalhes{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.containerDetalhes h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.containerDetalhes img{
+  width: 100%;
+}
+.sinopse{
+  font-weight: bold;
+}
+.containerDetalhes p{
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 100%;
+
+}
+.containerButton{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.containerButton button{
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  
+}
+.containerButton a{
+  text-decoration: none;
+  color: white;
+}
+.containerDetalhes strong{
+  margin-top: 20px;
+}
+.loading{
+  margin: 10px auto;
+  text-align: center;
+}
+
+@media (max-width: 480px){
+  .containerDetalhes{
+    max-width: 300px;
+    margin: 15px auto;
+  }
+  .containerDetalhes h2{
+    margin-bottom: 10px;
+  }
+}
